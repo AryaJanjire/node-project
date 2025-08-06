@@ -1,0 +1,24 @@
+npm install --save-dev jest node-mock-http
+npm install -g http-server
+http-server -p 4000
+
+
+
+
+jenkins pass:
+896c492d36774f59b0e707a4c39a11f3
+
+H/2 * * * *
+
+h/2 - hash mins
+hrs
+day of the month
+month
+day of a week
+
+
+steps for jenkins - 
+1. checkout 
+2. build 
+3. run test cases
+4. deploy apps
