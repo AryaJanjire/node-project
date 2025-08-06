@@ -15,7 +15,7 @@ dotenv.config();
 //middleware to parse json body
 app.use(express.json());
 app.use(cors({
-  origin: 'http://127.0.0.1:4000' || 'http://localhost:4000' || '*',
+  origin: '*',
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
   credentials:true
 })); // Enable CORS for all routes
