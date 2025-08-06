@@ -6,12 +6,7 @@ pipeline {
     }
 
     stages {
-        stage('Clone Repo') {
-            steps {
-                git url: 'https://bitbucket.org/nikunjsoni0510/final_project', branch: 'main'
-            }
-        }
-
+        
         stage('Setup NodeJS') {
             steps {
                 script {
