@@ -22,3 +22,5 @@ steps for jenkins -
 2. build 
 3. run test cases
 4. deploy apps
+
+npm install -g pm2

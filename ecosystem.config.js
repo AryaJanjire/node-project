@@ -1,0 +1,22 @@
+module.exports = {
+    apps: [
+      {
+        name: 'backend',
+        script: 'app.js',
+        cwd: './backend',
+        watch: false,
+        autorestart: true,
+       
+        windowsHide: true
+      },
+      {
+        name: 'frontend',
+        script: 'node_modules/http-server/bin/http-server',
+        cwd: './frontend',
+        args: '-p 3000',
+        autorestart: true,
+        watch: false,
+        windowsHide: true
+      }
+    ]
+  };
