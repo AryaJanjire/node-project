@@ -2,7 +2,7 @@ module.exports = {
     apps: [
       {
         name: 'backend',
-        script: 'app.js',
+        script: 'server.js',
         cwd: './backend',
         watch: false,
         autorestart: true,
