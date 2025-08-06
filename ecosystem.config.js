@@ -13,7 +13,7 @@ module.exports = {
         name: 'frontend',
         script: 'node_modules/http-server/bin/http-server',
         cwd: './frontend',
-        args: '-p 3000',
+        args: '-p 4000',
         autorestart: true,
         watch: false,
         windowsHide: true
